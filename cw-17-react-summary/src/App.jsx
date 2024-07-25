@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Summarycard from "./components/Summary-card";
+import Result from "./components/Result";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      
-    </>
-  )
+    <div className="flex justify-center items-center min-h-screen">
+      <Result />
+      <Summarycard />
+    </div>
+  );
 }
 
-export default App
+export default App;

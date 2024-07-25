@@ -1,0 +1,24 @@
+{
+  "grades": [
+    {
+      "category": "Reaction",
+      "score": 80,
+      "icon": "./public/icons/bx-party.svg"
+    },
+    {
+      "category": "Memory",
+      "score": 92,
+      "icon": "./public/icons/bxs-balloon.svg"
+    },
+    {
+      "category": "Verbal",
+      "score": 61,
+      "icon": "./public/icons/bxs-bowl-hot.svg"
+    },
+    {
+      "category": "Visual",
+      "score": 72,
+      "icon":"./public/icons/bxs-cheese.svg"
+    }
+  ]
+}
